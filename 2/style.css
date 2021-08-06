@@ -1,0 +1,12 @@
+.canvas__wrap {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto 0;
+  user-select: none;
+  touch-action: pan-y;
+}
+
+.canvas {
+  background-color: #d0dcfc;
+}

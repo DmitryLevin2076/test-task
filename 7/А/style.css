@@ -1,0 +1,111 @@
+/* Способ первый */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* Способ второй */
+
+/*.container {*/
+/*  display: flex;*/
+/*  justify-content: center;*/
+/*}*/
+
+/*.block {*/
+/*  align-self: center;*/
+/*}*/
+
+
+
+/* Способ третий */
+
+/*.container {*/
+/* position: relative;*/
+/*}*/
+
+/*.block {*/
+/*  position: absolute;*/
+/*  top: 0;*/
+/*  left: 0;*/
+/*  right: 0;*/
+/*  bottom: 0;*/
+/*  margin: auto;*/
+/*}*/
+
+
+
+/* Способ четвертый */
+
+/*.container {*/
+/*  position: relative;*/
+/*}*/
+
+/*.block {*/
+/*  position: absolute;*/
+/*  top: 50%;*/
+/*  left: 50%;*/
+/*  transform: translate(-50%, -50%);*/
+/*}*/
+
+
+
+/* Способ пятый */
+
+/*.container {*/
+/*  display: grid;*/
+/*  justify-items: center;*/
+/*  align-items: center;*/
+/*}*/
+
+
+
+/* Способ шестой */
+
+/*.container {*/
+/*  display: table-cell;*/
+/*  vertical-align: middle;*/
+/*  text-align: center;*/
+/*}*/
+
+/*.block {*/
+/*  display: inline-block;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="container">
+    <div id="block"></div>
+</div>
+<script>
+  const stylesContainer = `
+    width: 600px;
+    height: 600px;
+    background-color: #65688c;
+    display: flex;
+    justify-content: center;
+    align-items: center;`
+
+  const stylesBlock = `
+    width: 400px;
+    height: 400px;
+    background-color: #e2cbbd;`
+
+  container.style.cssText = stylesContainer;
+  block.style.cssText = stylesBlock;
+
+</script>
+</body>
+</html>

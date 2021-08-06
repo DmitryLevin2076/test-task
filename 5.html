@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onClick='getRequest()'>Click</button>
+<script>
+  const getRequest = () => {
+    fetch('/api').then((data) => data.json()).then(result => {
+      alert(result.message)
+    })
+  }
+</script>
+</body>
+</html>
